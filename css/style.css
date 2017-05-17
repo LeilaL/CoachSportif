@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "leila";
+  src: url(../fonts/MoonlightsontheBeach.ttf);
+}
+
+@font-face {
+  font-family: "roboto";
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+
+body {
+  font-family: "roboto";
+}
+
+/*$$$$$$$$$$$$$$$$$$$$HEADER$$$$$$$$$$$$$$$*/
+header {
+  background-color: #646464;
+  height: 150px;
+}
+
+header img {
+  width: 80px;
+  display: none;
+}
+
+header .btn-outline-success {
+  color: #fff;
+  background-color: #FF523E;
+  border-color: #FF523E;
+  font-weight: bold;
+}
+
+header .navbar-brand {
+  font-family: "leila";
+  font-size: 3em;
+}
+
+header .navbar-nav {
+  margin-left: 100px;
+}
+
+.navbar-nav li {
+  margin-left: 100px;
+}
