@@ -8,14 +8,16 @@
   src: url(../fonts/Roboto-Regular.ttf);
 }
 
-body {
+* {
   font-family: "roboto";
 }
 
 /*$$$$$$$$$$$$$$$$$$$$HEADER$$$$$$$$$$$$$$$*/
 header .navbar {
   background-color: #646464;
-  position: sticky;
+  /*position: fixed;
+  z-index: 4;
+  width: 100%;*/
 }
 
 header img {
@@ -45,11 +47,15 @@ header .collapse .navbar-nav>.nav-item>.nav-link {
   margin-left: 100px;
 }
 
+/*$$$$$$$$$$$$$$$$CAROUSEL$$$$$$$$$$$$$$$$$$$$$*/
+
 #carouselExampleControls img {
   width: 100%;
   height: 150px;
 }
 
+
+/*$$$$$$$$$$$$$$$$CARDS CONCEPT+DEMARCHE$$$$$$$$$*/
 .card-block .btn-primary {
   background-color: #FF523E;
   border-color: #FF523E;
@@ -60,6 +66,30 @@ header .collapse .navbar-nav>.nav-item>.nav-link {
   border-color: green;
 }
 
+
+.container-fluid .card-block h3 {
+  font-family: "leila";
+  font-size: 3em;
+}
+
+/*$$$$$$$$$$$$$$$$$$CARDS BLOG$$$$$$$$$$$$$$$$$$$$*/
+.titre h3 {
+  font-family: "leila";
+  font-size: 4em;
+  color: black;
+}
+
+.card-columns .color {
+  background-color: #FF523E;
+}
+
+.card-columns a {
+  color: #FF523E;
+}
+
+.card-columns a:hover {
+  color: green;
+}
 
 /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 $$$$$$$$$$$$$$$$$$ TABLET $$$$$$$$$$$$$$$$$$$$$$$$
