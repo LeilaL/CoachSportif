@@ -50,6 +50,16 @@ header .collapse .navbar-nav>.nav-item>.nav-link {
   height: 150px;
 }
 
+.card-block .btn-primary {
+  background-color: #FF523E;
+  border-color: #FF523E;
+}
+
+.card-block .btn-primary:hover {
+  background-color: green;
+  border-color: green;
+}
+
 
 /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 $$$$$$$$$$$$$$$$$$ TABLET $$$$$$$$$$$$$$$$$$$$$$$$
