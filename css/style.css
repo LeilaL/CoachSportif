@@ -13,9 +13,8 @@ body {
 }
 
 /*$$$$$$$$$$$$$$$$$$$$HEADER$$$$$$$$$$$$$$$*/
-header {
+header .navbar {
   background-color: #646464;
-  height: 150px;
 }
 
 header img {
@@ -33,12 +32,36 @@ header .btn-outline-success {
 header .navbar-brand {
   font-family: "leila";
   font-size: 3em;
+  margin-left: 50px;
 }
 
-header .navbar-nav {
-  margin-left: 100px;
+
+header .collapse .navbar-nav>.nav-item>.nav-link {
+  color: #FF523E;
 }
 
 .navbar-nav li {
   margin-left: 100px;
+}
+
+
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$ TABLET $$$$$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+
+@media (min-width: 600px) {
+}
+
+
+
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$ DESKTOP $$$$$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+
+@media (min-width: 900px) {
+
+  header .navbar-nav {
+    margin-left: 100px;
+  }
+
 }
