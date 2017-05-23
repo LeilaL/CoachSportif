@@ -91,6 +91,12 @@ header .collapse .navbar-nav>.nav-item>.nav-link {
   color: green;
 }
 
+/********************MAIN TARIF******************/
+body>h2 {
+  font-family: "leila";
+  font-size: 4em;
+  color: black;
+}
 /********************FOOTER******************/
 .end {
   background-color: rgba(55, 56, 55,0.8);
