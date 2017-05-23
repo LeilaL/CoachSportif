@@ -138,15 +138,15 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
 
 @media (min-width: 900px) {
 
-/*********************HEADER*********************/
+  /*********************HEADER*********************/
   header .navbar-nav {
     margin-left: 100px;
   }
 
-/********************CAROUSEL********************/
-#carouselExampleControls img {
-  display: flex;
-  height: 82vh;
+  /********************CAROUSEL********************/
+  #carouselExampleControls img {
+    display: flex;
+    height: 82vh;
   }
 
 }
