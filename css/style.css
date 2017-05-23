@@ -12,7 +12,7 @@
   font-family: "roboto";
 }
 
-/*$$$$$$$$$$$$$$$$$$$$HEADER$$$$$$$$$$$$$$$*/
+/*********************HEADER********************/
 header .navbar {
   background-color: #646464;
   /*position: fixed;
@@ -47,7 +47,7 @@ header .collapse .navbar-nav>.nav-item>.nav-link {
   margin-left: 100px;
 }
 
-/*$$$$$$$$$$$$$$$$CAROUSEL$$$$$$$$$$$$$$$$$$$$$*/
+/***********************CAROUSEL******************/
 
 #carouselExampleControls img {
   width: 100%;
@@ -55,7 +55,7 @@ header .collapse .navbar-nav>.nav-item>.nav-link {
 }
 
 
-/*$$$$$$$$$$$$$$$$CARDS CONCEPT+DEMARCHE$$$$$$$$$*/
+/*****************CARDS CONCEPT+DEMARCHE************/
 .card-block .btn-primary {
   background-color: #FF523E;
   border-color: #FF523E;
@@ -72,7 +72,7 @@ header .collapse .navbar-nav>.nav-item>.nav-link {
   font-size: 3em;
 }
 
-/*$$$$$$$$$$$$$$$$$$CARDS BLOG$$$$$$$$$$$$$$$$$$$$*/
+/********************CARDS BLOG******************/
 .titre h3 {
   font-family: "leila";
   font-size: 4em;
@@ -90,6 +90,14 @@ header .collapse .navbar-nav>.nav-item>.nav-link {
 .card-columns a:hover {
   color: green;
 }
+
+/********************FOOTER******************/
+.end {
+  background-color: rgba(55, 56, 55,0.8);
+  opacity: 0.96;
+  color: white;
+}
+
 
 /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 $$$$$$$$$$$$$$$$$$ TABLET $$$$$$$$$$$$$$$$$$$$$$$$
@@ -111,10 +119,12 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
 
 @media (min-width: 900px) {
 
+/*********************HEADER*********************/
   header .navbar-nav {
     margin-left: 100px;
   }
 
+/********************CAROUSEL********************/
 #carouselExampleControls img {
   display: flex;
   height: 82vh;
