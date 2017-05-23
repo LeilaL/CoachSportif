@@ -97,6 +97,19 @@ body>h2 {
   font-size: 4em;
   color: black;
 }
+
+/********************MAIN CONTACT******************/
+.envoyer {
+  background-color: #FF523E;
+  border-color: #FF523E;
+  color: white;
+  font-weight: bold;
+  width: 150px;
+  height: 35px;
+  border-radius: 4px;
+}
+
+
 /********************FOOTER******************/
 .end {
   background-color: rgba(55, 56, 55,0.8);
